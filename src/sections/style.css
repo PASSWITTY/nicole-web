@@ -1,0 +1,18 @@
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  
+  div.scrollmenu img:hover {
+    background-color: #777;
+  }
+
+  .scrollbar-hide ::-webkit-scrollbar {
+    display: none; /* For Webkit-based browsers */
+}
+
+.scrollbar-hide {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+}
